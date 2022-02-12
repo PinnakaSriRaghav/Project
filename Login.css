@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comic Neue', cursive; 
+}
+/* Navbar */
+.nav-menu{
+     padding: 25px; 
+}
+.fas{
+    color: #dbc1ac;
+}
+.menu{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #634832;
+    
+    transition: all .4s;
+
+}
+.menu:hover{
+    color: tomato;
+}
+.bar1, .bar2, .bar3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+
+}
+.navbar-toggler{
+    outline: none!important;
+}
+/* Login */
+#loginpage{
+    background-color: #fff;
+}
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 9%;
+    background:#dbc1ac;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+.login-form-2{
+    padding: 9%;
+    background: #282726;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: white;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnSubmit:hover{
+    background-color: gainsboro;
+
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:black;
+}
+/* footer */
+.container1{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p{
+    color: #8a8a8a;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px;
+}
+.copyright{
+    text-align: center;
+}

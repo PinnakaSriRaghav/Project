@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="CAR'S.CSS">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <title>Car Rental</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+        <a href="Index.html"><i class="fas fa-car-side fa-3x"></i></a>
+        <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbar">
+            <div class="bg-light bar1"></div>
+            <div class="bg-light bar2"></div>
+            <div class="bg-light bar3"></div>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="Index.html" class="nav-link m-2 menu">Home</a></li>
+                <li class="nav-item"><a href="Services.html" class="nav-link m-2 menu">Services</a></li>
+                <li class="nav-item"><a href="About.html" class="nav-link m-2 menu">About</a></li>
+                <li class="nav-item"><a href="contact.php" class="nav-link m-2 menu">Contact Us</a></li>
+                <li class="nav-item"><a href="Login.php" class="nav-link m-2 menu">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- -----HATCHBACK'S------- -->
+    <section class="most-liked p-5">
+        <div class="video-container">
+            <video class="bg-video" autoplay muted loop>
+                <source src="images/Welcome to India ! [CINEMATIC TRAVEL FILM].mp4" type="video/mp4">
+                <source src="images/Welcome to India ! [CINEMATIC TRAVEL FILM].webm">    
+            </video>
+        </div>
+        <div class="container-fluid"> 
+            <!-- tittle -->
+            <!-- tittle -->
+            <div class="row">
+                <div class="col text-center py-5">
+                    <h1 class="text-uppercase text-color font-weight-bold">Book a Car and Enjoy Your Trip</h1>
+                </div>
+            </div>
+            <div class="row row-2">
+                <select name="forma" onchange="location = this.value;">
+                    <option value="Services.html">-----------------</option>
+                    <option value="HATCHBACK.HTML">HATCHBACK Car'S</option>
+                    <option value="Sedan's.html">Sedan's Car'S</option>
+                    <option value="SUV'S.HTML">Suv'S Car'S</option>
+                    <option value="Luxious.html">Luxious Car'S</option>
+                    <option value="Services.html">All</option>
+                </select>
+            </div>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Safari</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/2021-tata-safari-14 (1).jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Safari">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Crysta(INNOVA)</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp4482158-toyota-innova-crysta-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Crysta">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Strome</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp4537816-tata-safari-storme-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Strome">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Kia Carnival</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp5924776-kia-carnival-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Kia Carnival">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Volvo XC90</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp6520225-volvo-xc-90-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Volvo XC90">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Ertiga</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp6669360-ertiga-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Ertiga">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">BMW X5</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp1907581-bmw-x5-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="BMW X5">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Jaguar XF</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp2162633-jaguar-xf-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Jaguar XF">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Endeavour</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp2397307-ford-endeavour-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Endeavour">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-rotate">
+                    <div class="card text-center mb-3 car-card">
+                        <div class="card-header">
+                            <h4 class="font-weight-light title-text">Mercedes GLA</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/Luxious/wp4298511-mercedes-gla-wallpapers.jpg" class="img-fluid rounded">
+                        </div>
+                        <div class="card-footer">
+                            4 Passenger's
+                        </div>
+                        <div class="back">
+                            <div class="back-content">
+                                <h3 class="text-uppercase font-weight-light">Just for</h3>
+                                <h2 class="mb-3">Rs:85/hr</h2>
+                                <form action="booking.php" method="post">
+                                    <input type="hidden" name="price_unit" value="85">
+                                    <input type="hidden" name="car_name" value="Mercedes GLA">
+                                    <input type="submit" name="book" value="Book" class="btn hvr-right my-4 text-capitalize">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

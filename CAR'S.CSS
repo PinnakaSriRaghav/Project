@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comic Neue', cursive; 
+}
+/* Navbar */
+.nav-menu{
+     padding: 25px; 
+}
+.fas{
+    color: #dbc1ac;
+}
+.menu{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #634832;
+    transition: all .4s;
+
+}
+.menu:hover{
+    color: tomato;
+}
+.bar1, .bar2, .bar3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+
+}
+.navbar-toggler{
+    outline: none!important;
+}
+/* end of navbar */
+/* CAR"S */
+/* video section */
+.most-liked{
+    position:relative;
+    margin-top: 25px;
+}
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    /* opacity: .8; */
+}
+.bg-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* end of VS */
+/* products */
+.row-2{
+    margin: 10px auto 50px;
+    margin-left: 260px;
+}
+.car-card{
+    position: relative;
+    box-shadow: 5px 15px 50px #634832;
+    max-width: 420px;
+    transition: all .8s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card-header .title-text{
+    color: #000;
+}
+.rotate{
+    perspective: 100rem;
+}
+.btn{
+    color: #dbc1ac;
+    font-weight: bold;
+    border: 2px solid #634832;
+    font-size: 25px;
+}
+.hvr-right{
+    display: inline-block;
+    vertical-align: middle;
+    transition-duration:0.5s ;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0);
+    position: relative;
+    transition-property: color;
+}
+.hvr-right:before{
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #dbc1ac;
+    transition-timing-function: ease-out;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+.hvr-right:hover, .hvr-right:focus, .hvr-right:active{
+    color: #000;
+
+}
+.hvr-right:hover:before, .hvr-right:focus:before, .hvr-right:active:before{
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37,0.66);
+    transform: scaleX(1);
+}
